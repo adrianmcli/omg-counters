@@ -39,8 +39,8 @@ _No counters were harmed in the making of these examples._
 
 let count = 0
 $('.count').text(count)
-$('.increment').on('click', () => $count.text(++count))
-$('.decrement').on('click', () => $count.text(--count))
+$('.increment').on('click', () => $('.count').text(++count))
+$('.decrement').on('click', () => $('.count').text(--count))
 ```
 
 # React
