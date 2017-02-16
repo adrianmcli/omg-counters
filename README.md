@@ -20,6 +20,7 @@ _No counters were harmed in the making of these examples._
 - [React](#react)
 - [Redux + React](#redux--react)
 - [Hyperapp](#hyperapp)
+- [Vue.js](#vuejs)
 - [Elm](#elm)
 - [Cycle.js](#cyclejs)
 - [Jumpsuit](#jumpsuit)
@@ -115,6 +116,27 @@ app({
       <button onclick={actions.add}>Increment</button>
       <button onclick={actions.sub}>Decrement</button>
     </div>
+})
+```
+
+# Vue.js
+
+```js
+// HTML
+// ----
+// <div id="app">
+//   <h1>{{ count }}</h1>
+//   <button v-on:click="increment">Increment</button>
+//   <button v-on:click="decrement">Decrement</button>
+// </div>
+
+new Vue({
+  el: '#app',
+  data: { count: 0 },
+  methods: {
+  	increment: function() { this.count++ },
+  	decrement: function() { this.count-- },
+  }
 })
 ```
 
