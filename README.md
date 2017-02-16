@@ -126,6 +126,8 @@ app({
 })
 ```
 
+[Live Example on WebpackBin](http://www.webpackbin.com/VJ-dzMJYz)
+
 # Vue.js
 
 ```js
