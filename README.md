@@ -3,11 +3,13 @@
 ![increment decrement](https://img.shields.io/badge/%E2%98%9D%EF%B8%8F%EF%B8%8F%20increment-%F0%9F%91%87%20decrement-blue.svg)
 ![so cool](https://img.shields.io/badge/so-cool-brightgreen.svg)
 
-Increment/decrement counters using various frontend frameworks.
+Increment/decrement ↕️️ counters using various frontend frameworks.
 
 ### _When a hello world is too simple, but a todo app is too complex._
 
 ![counter](https://cloud.githubusercontent.com/assets/943555/23040607/f434064e-f45f-11e6-8ca4-a4858dd62b28.gif)
+
+_No counters were harmed in the making of these examples._
 
 ### Table of Contents
 
