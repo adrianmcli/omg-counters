@@ -1,6 +1,5 @@
 # OMG Counters
-
-This is a collection of increment/decrement counters using various frontend frameworks.
+A collection of increment/decrement counters using various frontend frameworks.
 
 ### _When a hello world is too simple, but a todo app is too complex._
 
@@ -10,7 +9,6 @@ This is a collection of increment/decrement counters using various frontend fram
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [jQuery](#jquery)
 - [React](#react)
