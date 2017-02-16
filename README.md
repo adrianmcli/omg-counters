@@ -68,7 +68,7 @@ class Counter extends React.Component {
 
 [Live Example on WebpackBin](http://www.webpackbin.com/4kvMWMkKG)
 
-# Redux + React
+# React + Redux
 
 ```js
 import { createStore } from 'redux'
