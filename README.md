@@ -5,17 +5,6 @@ This is a collection of increment/decrement counters using various frontend fram
 
 _When a hello world is too simple, but a todo app is too complex._
 
-### Would be great to add
-
-* Vanilla JS
-* Angular 1
-* Angular 2/4
-* Backbone
-* Riot.js
-* MobX
-* RxJS
-* etc.
-
 ### Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
