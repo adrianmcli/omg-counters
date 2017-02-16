@@ -231,3 +231,5 @@ const Counter = Component({
 const globalState = { counter: CounterState }
 Render(globalState, <Counter/>)
 ```
+
+[Live Example on WebpackBin](http://www.webpackbin.com/4JkiMmkKM)
