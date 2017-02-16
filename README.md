@@ -1,20 +1,11 @@
+
 # OMG Counters
 
 This is a collection of increment/decrement counters using various frontend frameworks.
 
 _When a hello world is too simple, but a todo app is too complex._
 
-So far we have the following:
-
-* React
-* Redux + React
-* Hyperapp
-* Elm
-* Cycle.js
-* jQuery
-* Jumpsuit
-
-Would be great to add:
+### Would be great to add
 
 * Vanilla JS
 * Angular 1
@@ -24,6 +15,23 @@ Would be great to add:
 * MobX
 * RxJS
 * etc.
+
+### Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [jQuery](#jquery)
+- [React](#react)
+- [Redux + React](#redux--react)
+- [Hyperapp](#hyperapp)
+- [Elm](#elm)
+- [Cycle.js](#cyclejs)
+- [Jumpsuit](#jumpsuit)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 # jQuery
 
@@ -45,13 +53,13 @@ $('.decrement').on('click', () => $count.text(--count))
 ```JS
 class Counter extends React.Component {
   state = {count: 0}
-  
+
   increment = e =>
     this.setState({ count: this.state.count + 1 })
-  
+
   decrement = e =>
     this.setState({ count: this.state.count - 1 })
-  
+
   render = () =>  
     <div>
       <h1>{this.state.count}</h1>
@@ -85,7 +93,7 @@ var Counter = ({ count, onIncrement, onDecrement }) => (
 
 const render = () => {
   ReactDOM.render(
-    <Counter 
+    <Counter
        count={store.getState()}
        onIncrement={()=> store.dispatch({type: 'INCREMENT'})}
        onDecrement={()=> store.dispatch({type: 'DECREMENT'})}
