@@ -45,7 +45,7 @@ $('.decrement').on('click', () => $count.text(--count))
 
 # React
 
-```JS
+```js
 class Counter extends React.Component {
   state = {count: 0}
 
@@ -66,7 +66,7 @@ class Counter extends React.Component {
 
 # Redux + React
 
-```JS
+```js
 const counter = (state = 0, action) => {
   switch (action.type) {
     case 'INCREMENT': return state + 1
@@ -103,7 +103,7 @@ render()
 
 # Hyperapp
 
-```JS
+```js
 app({
   model: 0,
   update: {
@@ -122,7 +122,7 @@ app({
 # Vue.js
 
 ```js
-// HTML
+// html
 // ----
 // <div id="app">
 //   <h1>{{ count }}</h1>
