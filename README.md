@@ -143,11 +143,13 @@ new Vue({
   el: '#app',
   data: { count: 0 },
   methods: {
-  	increment: function() { this.count++ },
-  	decrement: function() { this.count-- },
+    increment: function() { this.count++ },
+    decrement: function() { this.count-- }
   }
 })
 ```
+
+[Live Example on WebpackBin](http://www.webpackbin.com/VyxxXfJYM)
 
 # Elm
 
