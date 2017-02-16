@@ -43,6 +43,8 @@ $('.increment').on('click', () => $('.count').text(++count))
 $('.decrement').on('click', () => $('.count').text(--count))
 ```
 
+[Live Example on WebpackBin](http://www.webpackbin.com/VyZb9Z1KG)
+
 # React
 
 ```js
