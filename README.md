@@ -1,5 +1,5 @@
 # OMG Counters
-A collection of increment/decrement counters using various frontend frameworks.
+Increment/decrement counters using various frontend frameworks.
 
 ### _When a hello world is too simple, but a todo app is too complex._
 
