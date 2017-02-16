@@ -182,6 +182,8 @@ update msg model =
       model - 1
 ```
 
+[Live Example](http://elm-lang.org/examples/buttons)
+
 # Cycle.js
 
 ```js
