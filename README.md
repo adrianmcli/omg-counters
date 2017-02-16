@@ -3,7 +3,7 @@
 
 This is a collection of increment/decrement counters using various frontend frameworks.
 
-_When a hello world is too simple, but a todo app is too complex._
+### _When a hello world is too simple, but a todo app is too complex._
 
 ### Table of Contents
 
