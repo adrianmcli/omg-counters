@@ -1,9 +1,10 @@
-
 # OMG Counters
 
 This is a collection of increment/decrement counters using various frontend frameworks.
 
 ### _When a hello world is too simple, but a todo app is too complex._
+
+![counter](https://cloud.githubusercontent.com/assets/943555/23040607/f434064e-f45f-11e6-8ca4-a4858dd62b28.gif)
 
 ### Table of Contents
 
