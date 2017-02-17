@@ -21,6 +21,12 @@
 
 _No counters were harmed in the making of these examples._
 
+### Attribution
+
+* AngularJS ([@housseindjirdeh](https://github.com/housseindjirdeh))
+* Angular 2+ ([@ashwin-sureshkumar](https://github.com/ashwin-sureshkumar))
+* MobX ([teesloane](https://github.com/teesloane))
+
 ### Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
