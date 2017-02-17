@@ -19,7 +19,7 @@ _No counters were harmed in the making of these examples._
 - [RxJS](#rxjs)
 - [React](#react)
 - [React + Redux](#react--redux)
-- [Angular JS](#angular-js)
+- [Angular JS](#angularjs)
 - [Angular 2](#angular-2)
 - [Hyperapp](#hyperapp)
 - [Vue.js](#vuejs)
