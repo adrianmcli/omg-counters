@@ -20,7 +20,7 @@ _No counters were harmed in the making of these examples._
 - [React](#react)
 - [React + Redux](#react--redux)
 - [AngularJS](#angularjs)
-- [Angular 2+](#angular-2+)
+- [Angular 2+](#angular-2)
 - [Hyperapp](#hyperapp)
 - [Vue.js](#vuejs)
 - [Elm](#elm)
