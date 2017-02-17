@@ -134,9 +134,9 @@ var Counter = ({ count, onIncrement, onDecrement }) => (
 const render = () => {
   ReactDOM.render(
     <Counter
-       count={store.getState()}
-       onIncrement={()=> store.dispatch({type: 'INCREMENT'})}
-       onDecrement={()=> store.dispatch({type: 'DECREMENT'})}
+      count={store.getState()}
+      onIncrement={()=> store.dispatch({type: 'INCREMENT'})}
+      onDecrement={()=> store.dispatch({type: 'DECREMENT'})}
     />,
     document.querySelector('body')
   )
