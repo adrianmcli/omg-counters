@@ -277,6 +277,7 @@ Render(globalState, <Counter/>)
 
 [Live Example on WebpackBin](http://www.webpackbin.com/4JkiMmkKM)
 
+```
 # Mobx
 
 const store = new class CounterStore {
@@ -294,5 +295,6 @@ const Counter = observer((props) => {
     </div>
   );
 });
+```
 
 [Live Example on JSBin](http://jsbin.com/tenudazego/edit?js,output)
