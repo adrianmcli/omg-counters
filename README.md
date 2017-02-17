@@ -175,7 +175,7 @@ const CounterComponent = {
       this.counter--
     }
   }
-};
+}
 
 export default CounterComponent
 ```
@@ -185,7 +185,7 @@ export default CounterComponent
 # Angular 2+
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
  selector: 'counter',
@@ -198,14 +198,14 @@ import { Component } from '@angular/core';
  `
 })
 export class CounterComponent {
- counter: number = 0;
+ counter: number = 0
 
  onIncrement() {
-   this.counter++;
+   this.counter++
  }
 
  onDecrement() {
-   this.counter--;
+   this.counter--
  }
 }
 ```
