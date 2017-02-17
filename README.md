@@ -177,7 +177,7 @@ export class CounterComponent {
 }
 ```
 
-[Live Example on Plnkr](https://embed.plnkr.co/8BD3YW/)
+[Live Example on WebpackBin](http://www.webpackbin.com/4k7YlbxKG)
 
 # Hyperapp
 
