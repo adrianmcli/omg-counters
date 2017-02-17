@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="OMG Counters" title="Angular 2 HN" src="logo.png" width="150">
+  <img alt="OMG Counters" src="logo.png" width="150">
 </p>
 
 <h1 align="center">
