@@ -1,11 +1,6 @@
 <p align="center">
   <img alt="OMG Counters" src="logo.png" width="150">
 </p>
-
-<h1 align="center">
-  OMG Counters
-</h1>
-
 <p align="center">
   ↕️️ Increment/decrement counters using various frontend frameworks.
 </p>
