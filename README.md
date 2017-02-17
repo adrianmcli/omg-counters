@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="OMG Counters" src="logo.png" width="150">
+  <img alt="OMG Counters" src="logo.png" width="440">
 </p>
 <p align="center">
   ↕️️ Increment/decrement counters using various frontend frameworks.
