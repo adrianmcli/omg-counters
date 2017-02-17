@@ -25,7 +25,7 @@ _No counters were harmed in the making of these examples._
 
 * AngularJS ([@housseindjirdeh](https://github.com/housseindjirdeh))
 * Angular 2+ ([@ashwin-sureshkumar](https://github.com/ashwin-sureshkumar))
-* MobX ([teesloane](https://github.com/teesloane))
+* MobX ([@teesloane](https://github.com/teesloane))
 
 ### Table of Contents
 
