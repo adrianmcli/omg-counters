@@ -19,6 +19,7 @@ _No counters were harmed in the making of these examples._
 - [RxJS](#rxjs)
 - [React](#react)
 - [React + Redux](#react--redux)
+- [Angular 2](#angular-2)
 - [Hyperapp](#hyperapp)
 - [Vue.js](#vuejs)
 - [Elm](#elm)
@@ -147,6 +148,36 @@ render()
 ```
 
 [Live Example on WebpackBin](http://www.webpackbin.com/N175AO1tz)
+
+# Angular 2
+
+```js
+import { Component } from '@angular/core';
+
+@Component({
+ selector: 'counter',
+ template : `
+   <div>
+     <h1>{{counter}}</h1>
+     <button (click)="onIncrement()">Increment</button>
+     <button (click)="onDecrement()">Decrement</button>
+   </div>
+ `
+})
+export class CounterComponent {
+ counter: number = 0;
+
+ onIncrement() {
+   this.counter++;
+ }
+
+ onDecrement() {
+   this.counter--;
+ }
+}
+```
+
+[Live Example on Plnkr](https://embed.plnkr.co/8BD3YW/)
 
 # Hyperapp
 
