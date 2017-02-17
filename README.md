@@ -344,9 +344,9 @@ Render(globalState, <Counter/>)
 
 ```js
 const store = new class CounterStore {
-  @observable count = 0;
-  @action increment = () => this.count++;
-  @action decrement = () => this.count--;
+  @observable count = 0
+  @action increment = () => this.count++
+  @action decrement = () => this.count--
 }
 
 const Counter = observer(() => {
