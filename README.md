@@ -19,6 +19,7 @@ _No counters were harmed in the making of these examples._
 - [RxJS](#rxjs)
 - [React](#react)
 - [React + Redux](#react--redux)
+- [AngularJS](#angularjs)
 - [Angular 2](#angular-2)
 - [Hyperapp](#hyperapp)
 - [Vue.js](#vuejs)
@@ -149,6 +150,37 @@ render()
 ```
 
 [Live Example on WebpackBin](http://www.webpackbin.com/N175AO1tz)
+
+# AngularJS
+
+```js
+const CounterComponent = {
+  template: `
+   <div>
+     <h1>{{ $ctrl.counter }}</h1>
+     <button ng-click="$ctrl.increaseCounter()">Increment</button>
+     <button ng-click="$ctrl.decreaseCounter()">Decrement</button>
+   </div>
+  `,
+  controller: class CounterController {
+    constructor() {
+      this.counter = 0;
+    }
+
+    increaseCounter() {
+      this.counter++;
+    }
+
+    decreaseCounter() {
+      this.counter--;
+    }
+  }
+};
+
+export default CounterComponent;
+```
+
+[Live Example on WebpackBin](http://www.webpackbin.com/Ek6APmgFM)
 
 # Angular 2
 
