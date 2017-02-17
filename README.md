@@ -251,3 +251,20 @@ Render(globalState, <Counter/>)
 ```
 
 [Live Example on WebpackBin](http://www.webpackbin.com/4JkiMmkKM)
+
+# RxJS
+
+```js
+const $factory = id => Rx.Observable.fromEvent(document.getElementById(id), 'click')
+const setCount = count => document.getElementById('count').textContent = count
+
+const inc$ = $factory('increment').mapTo(1)
+const dec$ = $factory('decrement').mapTo(-1)
+
+Rx.Observable.merge(inc$, dec$)
+  .startWith(0)
+  .scan((a, b) => a + b)
+  .subscribe(setCount)
+```
+
+[Live Example on WebpackBin](http://www.webpackbin.com/NkLKZwkFM)
