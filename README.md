@@ -164,23 +164,23 @@ const CounterComponent = {
   `,
   controller: class CounterController {
     constructor() {
-      this.counter = 0;
+      this.counter = 0
     }
 
     increaseCounter() {
-      this.counter++;
+      this.counter++
     }
 
     decreaseCounter() {
-      this.counter--;
+      this.counter--
     }
   }
 };
 
-export default CounterComponent;
+export default CounterComponent
 ```
 
-[Live Example on WebpackBin](http://www.webpackbin.com/Ek6APmgFM)
+[Live Example on WebpackBin](http://www.webpackbin.com/4JwFUVetz)
 
 # Angular 2
 
