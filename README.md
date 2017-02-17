@@ -25,6 +25,7 @@ _No counters were harmed in the making of these examples._
 - [Elm](#elm)
 - [Cycle.js](#cyclejs)
 - [Jumpsuit](#jumpsuit)
+- [Mobx](#mobx)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -306,3 +307,25 @@ Render(globalState, <Counter/>)
 ```
 
 [Live Example on WebpackBin](http://www.webpackbin.com/4JkiMmkKM)
+
+```
+# Mobx
+
+const store = new class CounterStore {
+  @observable count = 0;
+  @action increment = () => this.count++
+  @action decrement = () => this.count-- 
+}
+
+const Counter = observer((props) => {
+  return (
+    <div>
+      <h1>{store.count}</h1>
+      <button onClick={store.increment}>Increment</button>
+      <button onClick={store.decrement}>Decrement</button>
+    </div>
+  );
+});
+```
+
+[Live Example on JSBin](http://jsbin.com/tenudazego/edit?js,output)
