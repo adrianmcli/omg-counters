@@ -16,9 +16,11 @@ _No counters were harmed in the making of these examples._
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
+- [Vanilla JS](#vanilla-js)
 - [jQuery](#jquery)
 - [React](#react)
-- [Redux + React](#redux--react)
+- [React + Redux](#react--redux)
 - [Hyperapp](#hyperapp)
 - [Vue.js](#vuejs)
 - [Elm](#elm)
@@ -27,6 +29,23 @@ _No counters were harmed in the making of these examples._
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+# Vanilla JS
+
+```js
+// html
+// ----
+// <h1 class="count"></h1>
+// <button class="increment" onclick="increment()">Increment</button>
+// <button class="decrement" onclick="decrement()">Decrement</button>
+
+let count = 0
+const $count = document.getElementsByClassName('count')[0]
+$count.textContent = count
+function increment() { $count.textContent = ++count }
+function decrement() { $count.textContent = --count }
+```
+
+[Live Example on WebpackBin](http://www.webpackbin.com/NyXDu7ytz)
 
 # jQuery
 
