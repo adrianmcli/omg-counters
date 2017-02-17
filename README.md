@@ -308,24 +308,24 @@ Render(globalState, <Counter/>)
 
 [Live Example on WebpackBin](http://www.webpackbin.com/4JkiMmkKM)
 
-```
 # Mobx
 
+```js
 const store = new class CounterStore {
   @observable count = 0;
-  @action increment = () => this.count++
-  @action decrement = () => this.count-- 
+  @action increment = () => this.count++;
+  @action decrement = () => this.count--;
 }
 
-const Counter = observer((props) => {
+const Counter = observer(() => {
   return (
     <div>
       <h1>{store.count}</h1>
       <button onClick={store.increment}>Increment</button>
       <button onClick={store.decrement}>Decrement</button>
     </div>
-  );
-});
+  )
+})
 ```
 
-[Live Example on JSBin](http://jsbin.com/tenudazego/edit?js,output)
+[Live Example on JSBin](http://jsbin.com/zedoco/2/edit?js,output)
