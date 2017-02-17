@@ -295,4 +295,4 @@ const Counter = observer((props) => {
   );
 });
 
-// Live Example waiting on getting decorators working in webpackbin...
+[Live Example on JSBin](http://jsbin.com/tenudazego/edit?js,output)
