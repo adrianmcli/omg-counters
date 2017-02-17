@@ -65,6 +65,12 @@ $('.decrement').on('click', () => $('.count').text(--count))
 # RxJS
 
 ```js
+// html
+// ----
+// <h1 id="count"></h1>
+// <button id="increment">Increment</button>
+// <button id="decrement">Decrement</button>
+
 const $factory = id => Rx.Observable.fromEvent(document.getElementById(id), 'click')
 const setCount = count => document.getElementById('count').textContent = count
 
