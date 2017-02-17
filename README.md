@@ -206,7 +206,7 @@ update msg model =
 const xs = xstream.default
 const {div, button, h1, makeDOMDriver} = CycleDOM
 
-const main = (sources) => {
+function main(sources) {
   const action$ = xs.merge(
     sources.DOM.select('.dec').events('click').mapTo(-1),
     sources.DOM.select('.inc').events('click').mapTo(+1)
@@ -215,13 +215,15 @@ const main = (sources) => {
   const vdom$ = count$.map(count =>
     div([
       h1(count.toString()),
-      button('.inc', 'Increment'),
-      button('.dec', 'Decrement')
+      button('.dec', 'Decrement'),
+      button('.inc', 'Increment')
     ])
   )
   return { DOM: vdom$ }
 }
 ```
+
+[Live Example on JSBin](https://jsbin.com/huxoduh/1/edit?html,js,output)
 
 # Jumpsuit
 
