@@ -113,7 +113,7 @@ class Counter extends React.Component {
 ```js
 import { createStore } from 'redux'
 
-const counter = (state = 0, action) => {
+const reducer = (state = 0, action) => {
   switch (action.type) {
     case 'INCREMENT': return state + 1
     case 'DECREMENT': return state - 1
@@ -121,7 +121,7 @@ const counter = (state = 0, action) => {
   }
 }
 
-const store = createStore(counter)
+const store = createStore(reducer)
 
 var Counter = ({ count, onIncrement, onDecrement }) => (
   <div>
@@ -146,7 +146,7 @@ store.subscribe(render)
 render()
 ```
 
-[Live Example on WebpackBin](http://www.webpackbin.com/N1M2ZGyFG)
+[Live Example on WebpackBin](http://www.webpackbin.com/N175AO1tz)
 
 # Hyperapp
 
