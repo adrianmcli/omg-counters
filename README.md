@@ -1,10 +1,28 @@
-# OMG Counters ![cool badge](https://img.shields.io/badge/omg-counters-ff69b4.svg) ![increment decrement](https://img.shields.io/badge/%E2%98%9D%EF%B8%8F%EF%B8%8F%20increment-%F0%9F%91%87%20decrement-blue.svg) ![so cool](https://img.shields.io/badge/so-cool-brightgreen.svg)
+<p align="center">
+  <img alt="OMG Counters" src="logo.png" width="150">
+</p>
 
-↕️️ Increment/decrement counters using various frontend frameworks.
+<h1 align="center">
+  OMG Counters
+</h1>
+
+<p align="center">
+  ↕️️ Increment/decrement counters using various frontend frameworks.
+</p>
+
+<p align="center">
+  <img alt="cool badge" src="https://img.shields.io/badge/omg-counters-ff69b4.svg">
+  <img alt="increment decrement" src="https://img.shields.io/badge/%E2%98%9D%EF%B8%8F%EF%B8%8F%20increment-%F0%9F%91%87%20decrement-blue.svg">
+  <img alt="so cool" src="https://img.shields.io/badge/so-cool-brightgreen.svg">
+</p>
+
+---
+
+<p align="center">
+  <img src = "counter.gif">
+</p>
 
 ### _When a hello world is too simple, but a todo app is too complex._
-
-![counter](counter.gif)
 
 _No counters were harmed in the making of these examples._
 
