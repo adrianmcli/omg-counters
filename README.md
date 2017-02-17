@@ -1,9 +1,6 @@
-# OMG Counters ☝️️👇
-![cool badge](https://img.shields.io/badge/omg-counters-ff69b4.svg)
-![increment decrement](https://img.shields.io/badge/%E2%98%9D%EF%B8%8F%EF%B8%8F%20increment-%F0%9F%91%87%20decrement-blue.svg)
-![so cool](https://img.shields.io/badge/so-cool-brightgreen.svg)
+# OMG Counters ![cool badge](https://img.shields.io/badge/omg-counters-ff69b4.svg) ![increment decrement](https://img.shields.io/badge/%E2%98%9D%EF%B8%8F%EF%B8%8F%20increment-%F0%9F%91%87%20decrement-blue.svg) ![so cool](https://img.shields.io/badge/so-cool-brightgreen.svg)
 
-Increment/decrement ↕️️ counters using various frontend frameworks.
+↕️️ Increment/decrement counters using various frontend frameworks.
 
 ### _When a hello world is too simple, but a todo app is too complex._
 
