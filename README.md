@@ -49,6 +49,8 @@ _No counters were harmed in the making of these examples._
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+_Don't see your favorite framework? Make a PR! (see [contributing guidelines](CONTRIBUTING.md))_
+
 # Vanilla JS
 
 ```js
