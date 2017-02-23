@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "doctoc": "doctoc"
+  },
+  "devDependencies": {
+    "doctoc": "^1.2.0"
+  }
+}
