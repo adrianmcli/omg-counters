@@ -111,7 +111,7 @@ Rx.Observable.merge(inc$, dec$)
 
 # React
 
-```js
+```jsx
 class Counter extends React.Component {
   state = {count: 0}
 
@@ -121,7 +121,7 @@ class Counter extends React.Component {
   decrement = e =>
     this.setState({ count: this.state.count - 1 })
 
-  render = () =>  
+  render = () =>
     <div>
       <h1>{this.state.count}</h1>
       <button onClick={this.increment}>Increment</button>
@@ -134,7 +134,7 @@ class Counter extends React.Component {
 
 # React + Redux
 
-```js
+```jsx
 import { createStore } from 'redux'
 
 const reducer = (state = 0, action) => {
@@ -152,7 +152,7 @@ var Counter = ({ count, onIncrement, onDecrement }) => (
     <h1>{count}</h1>
     <button onClick={onIncrement}>Increment</button>
     <button onClick={onDecrement}>Decrement</button>
-  </div>  
+  </div>
 )
 
 const render = () => {
@@ -235,7 +235,7 @@ export class CounterComponent {
 
 # Hyperapp
 
-```js
+```jsx
 app({
   model: 0,
   update: {
@@ -255,15 +255,14 @@ app({
 
 # Vue.js
 
+```html
+<div id="app">
+  <h1>{{ count }}</h1>
+  <button v-on:click="increment">Increment</button>
+  <button v-on:click="decrement">Decrement</button>
+</div>
+```
 ```js
-// html
-// ----
-// <div id="app">
-//   <h1>{{ count }}</h1>
-//   <button v-on:click="increment">Increment</button>
-//   <button v-on:click="decrement">Decrement</button>
-// </div>
-
 new Vue({
   el: '#app',
   data: { count: 0 },
@@ -363,7 +362,7 @@ Render(globalState, <Counter/>)
 
 # Mobx
 
-```js
+```jsx
 const store = new class CounterStore {
   @observable count = 0
   @action increment = () => this.count++
