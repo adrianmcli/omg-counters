@@ -53,13 +53,15 @@ _Don't see your favorite framework? Make a PR! (see [contributing guidelines](CO
 
 # Vanilla JS
 
-```js
-// html
-// ----
-// <h1 class="count"></h1>
-// <button class="increment" onclick="increment()">Increment</button>
-// <button class="decrement" onclick="decrement()">Decrement</button>
+```html
+<!-- html -->
+<h1 class="count"></h1>
+<button class="increment" onclick="increment()">Increment</button>
+<button class="decrement" onclick="decrement()">Decrement</button>
+```
 
+```js
+// javascript
 let count = 0
 const $count = document.getElementsByClassName('count')[0]
 $count.textContent = count
@@ -71,13 +73,15 @@ function decrement() { $count.textContent = --count }
 
 # jQuery
 
-```js
-// html
-// ----
-// <h1 class="count"></h1>
-// <button class="increment">Increment</button>
-// <button class="decrement">Decrement</button>
+```html
+<!-- html -->
+<h1 class="count"></h1>
+<button class="increment">Increment</button>
+<button class="decrement">Decrement</button>
+```
 
+```js
+// javascript
 let count = 0
 $('.count').text(count)
 $('.increment').on('click', () => $('.count').text(++count))
@@ -88,13 +92,15 @@ $('.decrement').on('click', () => $('.count').text(--count))
 
 # RxJS
 
-```js
-// html
-// ----
+```html
+<!-- html -->
 // <h1 id="count"></h1>
 // <button id="increment">Increment</button>
 // <button id="decrement">Decrement</button>
+```
 
+```js
+// javascript
 const $factory = id => Rx.Observable.fromEvent(document.getElementById(id), 'click')
 const setCount = count => document.getElementById('count').textContent = count
 
@@ -256,13 +262,16 @@ app({
 # Vue.js
 
 ```html
+<!-- html -->
 <div id="app">
   <h1>{{ count }}</h1>
   <button v-on:click="increment">Increment</button>
   <button v-on:click="decrement">Decrement</button>
 </div>
 ```
+
 ```js
+// javascript
 new Vue({
   el: '#app',
   data: { count: 0 },
