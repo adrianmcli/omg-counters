@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "doctoc": "doctoc"
+    "doctoc": "doctoc README.md"
   },
   "devDependencies": {
     "doctoc": "^1.2.0"
