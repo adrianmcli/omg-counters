@@ -47,6 +47,7 @@ _No counters were harmed in the making of these examples._
 - [Cycle.js](#cyclejs)
 - [Jumpsuit](#jumpsuit)
 - [Mobx](#mobx)
+- [Choo](#choo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
