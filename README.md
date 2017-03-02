@@ -26,6 +26,7 @@ _No counters were harmed in the making of these examples._
 * AngularJS ([@housseindjirdeh](https://github.com/housseindjirdeh))
 * Angular 2+ ([@ashwin-sureshkumar](https://github.com/ashwin-sureshkumar))
 * MobX ([@teesloane](https://github.com/teesloane))
+* Choo ([@jelanithompson](https://github.com/JelaniThompson))
 
 ### Table of Contents
 
@@ -46,6 +47,7 @@ _No counters were harmed in the making of these examples._
 - [Cycle.js](#cyclejs)
 - [Jumpsuit](#jumpsuit)
 - [Mobx](#mobx)
+- [Choo](#choo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -390,3 +392,28 @@ const Counter = observer(() => {
 ```
 
 [Live Example on JSBin](http://jsbin.com/zedoco/2/edit?js,output)
+
+# Choo
+```js
+app.model({
+    state: { count: 0 },
+    reducers: {
+      increment: (state) => ({ count: state.count + 1 }),
+      decrement: (state) => ({ count: state.count - 1 })
+    }
+})
+
+const view = (state, previousState, send) => {
+  return html`<div>
+         <h1>${state.count}</h1>
+         <button onclick=${increment}>Increment</button>
+         <button onclick=${decrement}>Decrement</button></div>`
+  
+  function increment() { send('increment') }
+  function decrement() { send('decrement') }
+}
+
+app.router([['/', view]])
+document.body.appendChild(app.start())
+```
+[View on WebpackBin](http://www.webpackbin.com/Nk8CLwg5M)
