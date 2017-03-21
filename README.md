@@ -48,6 +48,7 @@ _No counters were harmed in the making of these examples._
 - [Jumpsuit](#jumpsuit)
 - [Mobx](#mobx)
 - [Choo](#choo)
+- [Cyclow](#cyclow)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -408,7 +409,7 @@ const view = (state, previousState, send) => {
          <h1>${state.count}</h1>
          <button onclick=${increment}>Increment</button>
          <button onclick=${decrement}>Decrement</button></div>`
-  
+
   function increment() { send('increment') }
   function decrement() { send('decrement') }
 }
@@ -417,3 +418,24 @@ app.router([['/', view]])
 document.body.appendChild(app.start())
 ```
 [View on WebpackBin](http://www.webpackbin.com/Nk8CLwg5M)
+
+# Cyclow
+```js
+import {Block, run} from 'cyclow'
+
+const Counter = () => Block({
+  on: {
+    'in.init':  () => counter => 0,
+    'dom.increment': () => counter => counter + 1,
+    'dom.decrement': () => counter => counter - 1
+  },
+  view: counter => ({content: [
+    {tag: 'h1', content: `${counter}`},
+    {tag: 'button', on: {click: 'increment'}, content: 'Increment'},
+    {tag: 'button', on: {click: 'decrement'}, content: 'Decrement'}
+  ]})
+})
+
+run(Counter)
+```
+[View on WebpackBin](https://www.webpackbin.com/bins/-KfjW8fnnnfYpn0rN1Sq)
