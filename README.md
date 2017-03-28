@@ -27,6 +27,7 @@ _No counters were harmed in the making of these examples._
 * Angular 2+ ([@ashwin-sureshkumar](https://github.com/ashwin-sureshkumar))
 * MobX ([@teesloane](https://github.com/teesloane))
 * Choo ([@jelanithompson](https://github.com/JelaniThompson))
+* Marko ([@patrick-steele-idem](https://github.com/patrick-steele-idem))
 
 ### Table of Contents
 
@@ -48,6 +49,7 @@ _No counters were harmed in the making of these examples._
 - [Jumpsuit](#jumpsuit)
 - [Mobx](#mobx)
 - [Choo](#choo)
+- [Marko](#marko)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -408,7 +410,7 @@ const view = (state, previousState, send) => {
          <h1>${state.count}</h1>
          <button onclick=${increment}>Increment</button>
          <button onclick=${decrement}>Decrement</button></div>`
-  
+
   function increment() { send('increment') }
   function decrement() { send('decrement') }
 }
@@ -417,3 +419,24 @@ app.router([['/', view]])
 document.body.appendChild(app.start())
 ```
 [View on WebpackBin](http://www.webpackbin.com/Nk8CLwg5M)
+
+# Marko
+
+```marko
+class {
+  onCreate() {
+    this.state = {count: 0};
+  }
+
+  increment(delta) {
+    this.state.count += delta;
+  }
+}
+
+<div>
+  <h1>${state.count}</h1>
+  <button on-click('increment', 1)>Increment</button>
+  <button on-click('increment', -1)>Decrement</button>
+</div>
+```
+[Try Online at markojs.com](http://markojs.com/try-online/?gist=8aa2a490d9426648d9fee81b7964606f)
